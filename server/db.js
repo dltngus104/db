@@ -4,7 +4,7 @@ const conn=mariadb.createConnection({
     host: 'localhost',
     port: '3306',
     user: 'root',
-    password: 'root@1234',
+    password: 'tmddk3363@',
     database: 'new_db',
     connectionLimit: 5
 });

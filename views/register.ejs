@@ -3,6 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>회원가입</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            position: absolute;
+            top: 20px;
+            text-align: center;
+            width: 100%;
+            color: #333;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e55b50;
+        }
+        .back-button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #ccc;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .back-button:hover {
+            background-color: #bbb;
+        }
+    </style>
 </head>
 <body>
     <h1>회원가입</h1>
@@ -11,5 +72,6 @@
         <input type="password" name="password" placeholder="비밀번호" required>
         <button type="submit">가입하기</button>
     </form>
+    <a href="/" class="back-button">뒤로가기</a>
 </body>
 </html>
